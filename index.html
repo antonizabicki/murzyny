@@ -9,14 +9,20 @@
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black; /* opcjonalnie czarne tło */
   }
-  body {
-    background: url("https://media.tenor.com/FLf21uYWIG0AAAAM/%D0%BA%D1%80%D1%83%D1%82%D0%BE%D0%B9-%D0%BA%D0%B0%D0%BA%D1%81%D0%B5%D0%B1%D1%8F%D1%87%D1%83%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82.gif") 
-                center center / cover no-repeat;
+  img {
+    max-width: 340%;
+    max-height: 340%;
+    object-fit: contain;
   }
 </style>
 </head>
 <body>
+  <img src="murzyny.gif" 
+       alt="fullscreen gif">
 </body>
 </html>
